@@ -1,0 +1,26 @@
+body {
+    background-color:black;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 9pt;
+}
+
+.demo {
+    background-color:#222831;
+    color:black;
+    border:1px solid gray;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+.demo th {
+    border:1px solid #393E46;
+    color:#00ADB5;
+    padding:5px;
+    min-width:10px;
+}
+
+.demo td {
+    border:1px solid #393E46;
+    color:#EEEEEE;
+    padding:5px;
+}

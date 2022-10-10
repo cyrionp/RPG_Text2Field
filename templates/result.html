@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text 2 Field</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<table class="demo">
+    <tr>
+        {% for i in range(max_index) %}
+        <th>{{i+1}}</th>
+        {% endfor %}
+    </tr>
+    {% for line in datas %}
+    <tr>
+        {% for char in line %}
+        <td>{{ char }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
