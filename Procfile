@@ -1,0 +1,1 @@
+web: gunicorn t2f:app ${PORT} --preload --timeout 100
